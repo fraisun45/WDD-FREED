@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+:root{
+
+  --primary-color: #B19CD9;
+  --secondary-color: #ffffff;
+  --accent1-color: #E841E2;
+  --accent2-color: #B19CD9;
+
+  /* chosen font(s) */
+  --heading-font: Ablasco, Helvetica, Arial;
+  --paragraph-font: Brush Script MT, cursive;
+}
+
 header{
     display: grid;
     grid-template-columns: 110px auto;  
@@ -13,7 +27,7 @@ header{
     margin: 0 auto;
   }
   main {
-    padding: 1em;
+    padding: 1em 2em ;
     background-color: #ffffff;
   }
   .logo-box img{
@@ -88,7 +102,7 @@ header{
   
   body{
     background-color : #B19CD9;
-    font-family: Mollenia, Arial, sans-serif;
+    font-family: Ablasco, Helvetica, Arial;
     font-size: 1.5em;
     letter-spacing: 1px
   }
@@ -119,6 +133,9 @@ header{
     overflow: hidden;
     grid-column: 2 / span 5;
     padding-right: 25px;
+    padding: 36px 0px 25px 0px;
+    margin-bottom: 6px;
+ 
   }
   
   /* Style the links inside the navigation bar */
