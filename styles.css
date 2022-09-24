@@ -14,7 +14,7 @@
 
 header{
     display: grid;
-    grid-template-columns: 110px auto;  
+    grid-template-columns: auto auto auto;  
     align-items: center;
   }
   
@@ -23,7 +23,7 @@ header{
     grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
   }
   #main_content{
-    max-width: 960px;
+    max-width: 1600px;
     margin: 0 auto;
   }
   main {
@@ -32,6 +32,9 @@ header{
   }
   .logo-box img{
     border:none;
+    max-width: 80px;
+    margin-bottom: 1%;
+    margin-right: 0%;
   }
   .banner-box{
     
@@ -42,6 +45,8 @@ header{
   .banner-box img{
     grid-column: 1 / span 2;
     grid-row: 1;
+    width: 1700px;
+    height: 300px;
   }
   .note{
     grid-column: 1;
@@ -133,8 +138,8 @@ header{
     overflow: hidden;
     grid-column: 2 / span 5;
     padding-right: 25px;
-    padding: 36px 0px 25px 0px;
-    margin-bottom: 6px;
+    padding: 0.6em 0em 0.7em 0em;
+    margin-bottom: 1%;
  
   }
   
@@ -150,7 +155,7 @@ header{
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #B19CD9;
+    background-color: #ffffff;
     color: black;
   }
   
