@@ -175,7 +175,15 @@ main section {
   margin-bottom: 200px;
   width: 100%;
 }
-main section img {
+
+main div {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 100%;
+  }
+
+main div img {
   width: 100%;
   box-sizing: border-box;
 }
