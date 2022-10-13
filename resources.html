@@ -6,7 +6,7 @@
     <title>Whitewater Rafting Vacations | Dry Oar Boating | Home</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="resources.css">
 </head>
 
 <body>
@@ -24,39 +24,41 @@
       </header>
       <div id="hero">
           <h6 id="hero-box">
-              <img id="hero-img" src="https://placeimg.com/640/480/nature" alt= "natural places are one of the best things the world offers">
-          </h6>
+              <div id="hero-img"> </div>
+          
           <div id="hero-msg">
-              <h1 class="home-title"> Plan your next adventure with us!</h1>
-              <h4>Make Memories with Dry Oar </h4>
+              <h1 class="home-title"> Prepare Yourself Now</h1>
+              <div class="div-text">Please write your personal information <br>
+                and schedule your trip right now.<br>
+                We want to invite you to come here <br>
+                and having fun with us because we just want you<br>
+                to be happy. Don't waste any other minute, come now!<br>
+              </div>
               <div class="button-box">
-                  <a class="book" href="resources.html">Book Now</a>
+                <form class="form">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <input type="submit" id="submit" value="Submit">
+                  </form>
+                 
               </div>
           </div>
+        </h6>
       </div>
       <main class="home-grid">
           <section class="rivers-card">
-              <img class="mountain" src="img/rivers.jpg" alt="river in forest">
-              <img class="river" src="img/river_icon.png" alt="white water rafting oars">
-              <h2>Rivers</h2>
+              <img class="mountain" src="img/river-rafting-lessons.jpg" alt="river in forest">
           </section>
           <section class="camping-card">
-              <img class="camp" src="img/camping.jpg" alt="tent in mountains">
-              <img class="fire" src="img/fire_icon.png" alt="white water rafting oars">
-              <h2>Camping</h2>
+              <p>Today is an Oportunity for you and your love ones</p>
+              <h2>Take Now</h2>
           </section>
           <section class="rapids-card">
-              <img class="boat" src="img/rapids.jpg" alt="white water rafting boat">
-              <img class="oars" src="img/oars.png" alt="white water rafting oars">
-              <h2>Rapids</h2>
+              <img class="boat" src="img/River-rafting-rishikesh.jpg" alt="white water rafting boat">
           </section>
-          <div id="background"></div>
-          <img class="mountains" src="img/mountains.jpg" alt="Misty mountains">
-          <div class="msg">
-              <h2>More Than Just The Thrill</h2>
-              <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
-              <a class="join" href="index.html">Join Us</a>
-          </div>
+       
       </main>
       <footer>
           <h3>Dry Oar © 2022 WDD 130-30 Freisi A. Jorge</h3>
@@ -69,4 +71,5 @@
           </div>
       </footer>
   </div>      
-
+</body>  
+</html>
